@@ -292,7 +292,7 @@ class Game
 		input = gets.chomp.upcase
 		if input == 'Y'
 			clear_screen
-			game_engine
+			initialize
 		elsif input == 'N'
 			:exit
 		else
